@@ -1,19 +1,12 @@
 {
-  "name": "api",
+  "name": "API",
+  "description": "A API",
+  "repository": "https://github.com/leondewey/api",
   "scripts": {
     "postdeploy": "bin/setup",
     "pr-predestroy": "bin/teardown"
   },
-  "env": {
-  },
-  "formation": {
-  },
-  "addons": [
-
-  ],
-  "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
-    }
-  ]
+  "env": {},
+  "formation": {},
+  "addons": []
 }
